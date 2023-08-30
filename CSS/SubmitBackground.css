@@ -1,0 +1,207 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-image: url(../Images/Background.webp);
+    /* background-color: #E8F9FD; */
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    position: -webkit-sticky;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Calibri";
+}
+
+.navbar{
+    width: 100%;
+    /* margin: auto; */
+    position: absolute;
+    background-color: #00acb5e4;
+    border-bottom: #092a77 solid;
+}
+
+.logo img{
+    width: 7vw;
+    float: left;
+    margin-right: 0.5vw;
+}
+
+.logo a{
+    font-size: 5vw;
+    font-weight: bold;
+    float: left;
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+    color: #222831;
+}
+
+.desk{
+    width: 30%;
+    float: left;
+    font-family: Georgia;
+    margin-left: 1vw;
+    padding-right: 10vw;
+}
+
+.menu{
+    font-size: 1.5vw;
+    float: right;
+    /* background-color: #FFD9C0; */
+}
+
+nav{
+    z-index: 100;
+    padding: 0;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+    /* background-color: #293462; */
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav .menu ul li{
+    float: left;
+}
+
+nav .menu ul li a{
+    color: #222831;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    transition: 0.9s;
+}
+
+nav ul li a:hover{
+   color: #8CC0DE;
+   background-color: #242F9B;
+   padding: 13vw 1vw 1vw 1vw;
+   cursor: pointer; 
+   transition: all 0.2s ease-in-out;
+}
+
+.panel1{
+    height: 20vw;
+    padding: 6vw;
+    font-family: Verdana, sans-serif;
+    font-size: 1.5vw;
+}
+
+.panel1 #des1{
+    font-size: 2vw;
+    color: #06194a;
+    margin-left: 28vw;
+    padding-top: 5vw;
+}
+
+.panel1 #des2{
+    color: #506b91;
+    margin-top: 2vw;
+    margin-left: 20vw;
+}
+
+.panel1 #des3{
+    color: #506b91;
+    margin-top: 1vw;
+    margin-left: 22vw;
+}
+
+.panel2{
+    height: 10vw;
+}
+
+.panel2 a{
+    font-family: Verdana, sans-serif;
+    margin-top: 4vw;
+    margin-bottom: -6vw;
+    background-color: #8CC0DE;
+    color: #242F9B;
+    border-radius: 1vw;
+    padding: 0.1vw 0.3vw 0.3vw 0.3vw;
+    font-size: 3.5vw;
+    margin-left: 35vw; 
+}
+
+.panel2 a:hover{
+    border-radius: 1vw;
+    background-color: cadetblue;
+    padding: 0.1vw 0.2vw 0.1vw 0.2vw;
+    transition: all 0.2s ease-in-out;
+}
+
+.panel4{
+    height: 9vw;
+    background-color: #3a8e93;
+    font-family: "Verdana";
+}
+
+.panel4kiri{
+    width: 50%;
+    float: left;
+    margin-left: 2vw;
+    margin-right: -2vw;
+}
+
+.panel4kanan{
+    width: 50%;
+    float: right;
+}
+
+.panel4kiri .titlefoot{
+    font-weight: 700;
+    font-family: "Cambria";
+    font-size: 2vw;
+}
+
+.panel4kiri .adress{
+    color: #3d444f;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.panel4kiri .cop{
+    color: #3d444f;
+    font-size: 0.8vw;
+    font-weight: 400;
+    margin-top: 2vw;
+}
+
+.panel4kanan .contact{
+    margin-left: 10vw;
+    font-weight: 700;
+    font-family: "Cambria";
+    font-size: 2vw;
+}
+
+.panel4kanan img{
+    margin-left: 10vw;
+    width: 1vw;
+}
+
+.panel4kanan .con{
+    font-weight: 500;
+    font-size: 1vw;
+    color: #3d444f;
+}
+
+.panel4kanan .con a{
+    color: #3d444f;
+}
+
+.panel4kanan .con a:hover{
+    color: #6D8B74;
+    transition: 0.4s all ease-in-out;
+}

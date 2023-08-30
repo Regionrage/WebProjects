@@ -1,0 +1,332 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-image: url(../Images/Background.webp);
+    /* background-color: #E8F9FD; */
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    position: -webkit-sticky;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Calibri";
+}
+
+.navbar{
+    width: 100%;
+    /* margin: auto; */
+    position: absolute;
+    background-color: #00acb5e4;
+    border-bottom: #092a77 solid;
+}
+
+.logo img{
+    width: 7vw;
+    float: left;
+    margin-right: 0.5vw;
+}
+
+.logo a{
+    font-size: 5vw;
+    font-weight: bold;
+    float: left;
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+    color: #222831;
+}
+
+.desk{
+    width: 30%;
+    float: left;
+    font-family: Georgia;
+    margin-left: 1vw;
+    padding-right: 10vw;
+}
+
+.menu{
+    font-size: 1.5vw;
+    float: right;
+    /* background-color: #FFD9C0; */
+}
+
+nav{
+    z-index: 100;
+    padding: 0;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+    /* background-color: #293462; */
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav .menu ul li{
+    float: left;
+}
+
+nav .menu ul li a{
+    color: #222831;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    transition: 0.9s;
+}
+
+nav ul li a:hover{
+   color: #8CC0DE;
+   background-color: #242F9B;
+   padding: 13vw 1vw 1vw 1vw;
+   cursor: pointer; 
+   transition: all 0.2s ease-in-out;
+}
+
+.panel1{
+    padding-top: 6vw;
+    background-color: #94DAFF;
+    height: 4.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+}
+
+.panel1 #kiri{
+    float: left;
+    color: #22577E;
+    margin-left: 25vw;
+}
+
+.panel1 #kanan{
+    float: left;
+    margin-left: 0.8vw;
+}
+
+.panel2{
+    padding-top: 0.001vw;
+    height: 75vw;
+    z-index: -1;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    background-color: #E8F9FD;
+}
+
+.panel2border{
+    width: 60vw;
+    height: 66vw;
+    z-index: 1;
+    margin: 4vw 8vw 4vw 19vw;
+    background-color: #8FC1D4;
+    border-radius: 1vw;
+    border: #55707b solid;
+}
+
+.panel2 .name{
+    color: #1b425c;
+    font-size: 1.5vw;
+    float: left;
+    margin-top: 4vw;
+    margin-left: 6vw;
+}
+
+.panel2 #inputname{
+    float: left;
+    margin-top: 0.5vw;
+    padding-right: 20vw;
+    font-size: 2vw;
+    border-color: #34BE82;
+}
+
+.panel2 .birthday{
+    color: #1b425c;
+    font-size: 1.5vw;
+    float: left;
+    margin-top: 3vw;
+    padding-right: 30vw;
+    margin-left: 6vw;
+}
+
+.panel2 #inputbirthday{
+    float: left;
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    border-color: #34BE82;
+}
+
+.panel2 .gender{
+    font-size: 1.5vw;
+    float: left;
+    margin-top: 3vw;
+    margin-left: 6vw;
+}
+
+.panel2 .gender .gend{
+    color: #1b425c;
+}
+
+.panel2 .gender .gensel{
+    margin-top: 0.5vw;
+    float: left;
+    font-size: 1.5vw;
+}
+
+.panel2 .email{
+    color: #1b425c;
+    font-size: 1.5vw;
+    float: left;
+    /* padding-right: 100vw; */
+    margin-top: 3vw;
+    margin-left: 6vw;
+}
+
+.panel2 #inputemail{
+    float: left;
+    margin-top: 0.5vw;
+    padding-right: 23vw;
+    font-size: 2vw;
+    border-color: #34BE82;
+}
+
+.panel2 .phone{
+    color: #1b425c;
+    font-size: 1.5vw;
+    float: left;
+    /* padding-right: 100vw; */
+    margin-top: 3vw;
+    margin-left: 6vw;
+}
+
+.panel2 #inputphone{
+    float: left;
+    margin-top: 0.5vw;
+    padding-right: 15vw;
+    font-size: 2vw;
+    border-color: #34BE82;
+}
+
+.panel2 .school{
+    color: #1b425c;
+    font-size: 1.5vw;
+    float: left;
+    padding-right: 10vw;
+    margin-top: 3vw;
+    margin-left: 6vw;
+}
+
+.panel2 #inputschool{
+    float: left;
+    margin-top: 0.5vw;
+    padding-right: 18vw;
+    font-size: 2vw;
+    border-color: #34BE82;
+}
+
+.panel2 .cek{
+    color: #1b425c;
+    float: left;
+    width: 50vw;
+    margin-top: 4vw;
+    margin-left: 1vw;
+}
+
+.panel2 .cek .desc2{
+    margin-left: 11vw;
+}
+
+.panel2 #check{
+    margin-right: 1vw;
+    margin-left: 9vw;
+    float: left;
+    transform: scale(2);
+}
+
+.panel2 .submit a button{
+    float: left;
+    font-size: 2vw;
+    padding: 1vw 3vw 1vw 3vw;
+    margin-top: 3vw;
+    margin-left: 23vw;
+    background-color: #C4DDFF;
+    border-color: #30AADD;
+    color: #7FB5FF;
+    border-radius: 3vw;
+}
+
+.panel2 .submit button:hover{
+    background-color: #646FD4;
+    color: #242F9B;
+}
+
+.panel4{
+    height: 9vw;
+    background-color: #3a8e93;
+    font-family: "Verdana";
+}
+
+.panel4kiri{
+    width: 50%;
+    float: left;
+    margin-left: 2vw;
+    margin-right: -2vw;
+}
+
+.panel4kanan{
+    width: 50%;
+    float: right;
+}
+
+.panel4kiri .titlefoot{
+    font-weight: 700;
+    font-family: "Cambria";
+    font-size: 2vw;
+}
+
+.panel4kiri .adress{
+    color: #3d444f;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.panel4kiri .cop{
+    color: #3d444f;
+    font-size: 0.8vw;
+    font-weight: 400;
+    margin-top: 2vw;
+}
+
+.panel4kanan .contact{
+    margin-left: 10vw;
+    font-weight: 700;
+    font-family: "Cambria";
+    font-size: 2vw;
+}
+
+.panel4kanan img{
+    margin-left: 10vw;
+    width: 1vw;
+}
+
+.panel4kanan .con{
+    font-weight: 500;
+    font-size: 1vw;
+    color: #3d444f;
+}
+
+.panel4kanan .con a{
+    color: #3d444f;
+}
+
+.panel4kanan .con a:hover{
+    color: #6D8B74;
+    transition: 0.4s all ease-in-out;
+}

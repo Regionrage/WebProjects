@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form to Sunbic University</title>
+    <link rel="stylesheet" href="../CSS/RegisterBackground.css">
+    <link rel="icon" href="../Images/clipboard.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../Images/Logo.png" alt="LogoSunbic">
+                <a href="Homepage.html">SUNBIC</a>
+            </div>
+            <div class="desk">
+                <p>"We strive for consistency, for a better future"</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="panel1">
+        <p id="kiri">Sunbic University</p>
+        <p id="kanan">Registration Form</p>
+    </section>
+    <section class="panel2">
+        <div class="panel2border">
+            <div class="name">
+                <p>Full Name :</p>
+                <input type="text" id="inputname" placeholder="Ex. Michael Greens">
+            </div>
+            <div class="birthday">
+                <p>Birthday Date :</p>
+                <input type="date" id="inputbirthday">
+            </div>
+            <div class="gender">
+                <p class="gend">Gender :</p>
+                <div class="gensel">
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="fem" name="gender" value="Female">
+                    <label for="fem">Female</label>
+                </div>
+            </div>
+            <div class="email">
+                <p>Active E-mail :</p>
+                <input type="email" id="inputemail" placeholder="Ex. unknownhuman@gmail.com">
+            </div>
+            <div class="phone">
+                <p>Active Phone Number :</p>
+                <input type="tel" id="inputphone" placeholder="Ex. +1 234 5678 9012" pattern="+[0-9]-[0-9]{3}-[0-9]{4}-[0-9]{4}">
+            </div>
+            <div class="school">
+                <p>Graduated from :</p>
+                <input type="text" id="inputschool" placeholder="Your High School's name">
+            </div>
+            <div class="cek">
+                <input type="checkbox" id="check">
+                <p>I have filled this form with real information</p>
+                <p class="desc2">about me</p>
+            </div>
+                
+            <div class="submit">
+                <a href="../HTML/Submit.html"><button type="button" onclick="alert('Submission successful!')">Submit</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="panel4">
+        <div class="panel4kiri">
+            <p class="titlefoot">Sunbic University</p>
+            <p class="adress">Almamater Street, 59 West 46th Street 
+                <br>New York City, NY 10019 
+                <br>United States of America</p>
+            <p class="cop">Copyright © Sunbic University. All rights reserved</p>
+        </div>
+        <div class="panel4kanan">
+            <p class="contact">Contact us :</p>
+            <p class="con">
+                <a href="https://www.instagram.com/?hl=en"><img src="../Images/Instagram.png" alt="Instagram"></a> : <a href="https://www.instagram.com/?hl=en">@SunbicUniversity</a>
+                <br><a href="https://www.facebook.com/"><img src="../Images/Facebook.png" alt="Facebook"></a> : <a href="https://www.facebook.com/">SunbicUni</a> 
+                <br><img src="../Images/Phone.png" alt="Phone"> : +1 718 2990 9883</p>
+        </div>
+    </section>
+</body>
+</html>
